@@ -3,7 +3,7 @@
 Easy object pooling
 
 ```lua
-    local PoolService = requrie(path.to.PoolService)
+    local PoolService = require(path.to.PoolService)
 
     --Make an object pool for every part/model tagged with "Pool"
     --A instance tagged with "PoolChildren" will have a pool made for each of its children
